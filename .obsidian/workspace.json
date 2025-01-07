@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wordpres Project/Linux Hardening.md",
+                "file": "Wordpress Project/Linux Hardening.md",
                 "mode": "source",
                 "source": false
               },
@@ -165,9 +165,13 @@
   },
   "active": "74af704e2eebc55c",
   "lastOpenFiles": [
+    "Wordpress Project/Untitled.md",
+    "Wordpress Project/Linux Hardening.md",
+    "Wordpress Project/Crowdsec",
+    "Wordpress Project/Cloudf.md",
+    "Wordpress Project/Linux",
     "test document.md",
-    "Wordpres Project/Linux Hardening.md",
-    "Wordpres Project",
+    "Wordpress Project",
     "Welcome.md"
   ]
 }
