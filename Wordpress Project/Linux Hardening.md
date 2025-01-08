@@ -14,5 +14,15 @@ sudo timedatectl set-timezone Europe/Paris
 ```
 
 ```bash
+sudoedit /etc/systemd/timesyncd.conf
+```
+
+```bash
+NTP=pool.ntp.org
+```
+
+```bash
 sudo timedatectl set-ntp on
 ```
+
+
