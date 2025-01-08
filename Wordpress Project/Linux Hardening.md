@@ -26,3 +26,7 @@ sudo timedatectl set-ntp on
 ```
 
 
+## hidepid=2
+> [!NOTE]  
+> Skip> probleme avec systemd.
+
