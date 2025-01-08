@@ -31,3 +31,11 @@ sudo timedatectl set-ntp on
 > Skip> probleme avec systemd.
 
 echo "This email body is sent with Mailtrap" | mail -s "Mailtrap Linux email" recipient@example.com
+
+## separate iptables
+
+> [!WARNING]  
+> bien repointer PSAD et crowdsec dessus
+
+
+
