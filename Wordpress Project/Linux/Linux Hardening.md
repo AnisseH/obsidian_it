@@ -39,3 +39,11 @@ echo "This email body is sent with Mailtrap" | mail -s "Mailtrap Linux email" re
 
 
 
+## Test ports
+> [!NOTE]  
+> Commande pour tester les ports.
+
+```bash
+sudo nmap -Pn --top-ports 1000 portquiz.net
+```
+

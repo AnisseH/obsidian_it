@@ -28,7 +28,7 @@
               "type": "markdown",
               "state": {
                 "file": "Wordpress Project/Linux/Linux Hardening.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
@@ -178,7 +178,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "bc4fcee25a488a48",
+  "active": "557517cfd5166937",
   "lastOpenFiles": [
     "Wordpress Project/Linux/SSH.md",
     "Wordpress Project/Linux/Linux Hardening.md",
