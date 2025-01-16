@@ -229,7 +229,7 @@ ip6tables -A INPUT -i lo -j accept_pack
 ip6tables -A OUTPUT -o lo -j accept_pack
 iptables -A INPUT -p tcp --dport $SSHPORT -m conntrack --ctstate NEW -m recent --set
 iptables -A INPUT -p tcp --dport $SSHPORT -m conntrack --ctstate NEW -m recent --update --seconds 60 --hitcount 6 -j SSHBRUTEFORCE
-iptables -A INPUT -p tcp --dport $SSHPORT -m conntrack --ctstate NEW -j accept_pack
+iptables -A INPUT -p tcp --dport $SSHPORT -m conntrack --ctstate NEW -j accept_pack 
 iptables -A OUTPUT -p tcp --dport $SSHPORT -m conntrack --ctstate NEW -j accept_pack
 iptables -A OUTPUT -p tcp --dport 80 -m conntrack --ctstate NEW -j accept_pack
 iptables -A OUTPUT -p tcp --dport 443 -m conntrack --ctstate NEW -j accept_pack

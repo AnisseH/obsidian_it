@@ -27,12 +27,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wordpress Project/Linux/smtp2go_postfix_main.cf.md",
+                "file": "Wordpress Project/Linux/SSH.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "smtp2go_postfix_main.cf"
+              "title": "SSH"
             }
           }
         ],
@@ -180,10 +180,10 @@
   },
   "active": "557517cfd5166937",
   "lastOpenFiles": [
+    "Wordpress Project/Linux/smtp2go_postfix_main.cf.md",
     "Wordpress Project/Linux/Untitled.md",
     "Wordpress Project/Linux/SSH.md",
     "Wordpress Project/Linux/Linux Hardening.md",
-    "Wordpress Project/Linux/smtp2go_postfix_main.cf.md",
     "Wordpress Project/Untitled.md",
     "Wordpress Project/Crowdsec",
     "Wordpress Project/Cloudf.md",
