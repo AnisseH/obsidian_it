@@ -141,4 +141,9 @@ sudo ln -s /etc/nginx/sites-available/wp.9ahwa.ovh /etc/nginx/sites-enabled/wp.9
 CREATE USER 'argosadmin'@'localhost' IDENTIFIED BY 'edE9KLbt&%7Wcb';
 
 
-CREATE DATABASE globex CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+CREATE DATABASE wp CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+
+GRANT ALL PRIVILEGES ON wp.* TO 'argosadmin'@'localhost';
+
+wp core config --dbname=wp --dbuser=argosadmin --dbpass='edE9KLbt&%7Wcb'
+wp core install --skip-email --url=https://wp.9ahwa.ovh --title='Argos' --admin_user=aha --admin_email=aha@argos.fund --admin_password='V8g8XP!Nv#u&hx'
