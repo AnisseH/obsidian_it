@@ -133,21 +133,32 @@ sudo certbot --nginx certonly -d wp.9ahwa.ovh -d www.wp.9ahwa.ovh
 Certificate is saved at: /etc/letsencrypt/live/wp.9ahwa.ovh/fullchain.pem
 Key is saved at:         /etc/letsencrypt/live/wp.9ahwa.ovh/privkey.pem
 
-
+```bash
 sudo ln -s /etc/nginx/sites-available/wp.9ahwa.ovh /etc/nginx/sites-enabled/wp.9ahwa.ovh
+```
 
 
+## WP site
 
+```mysql
 CREATE USER 'argosadmin'@'localhost' IDENTIFIED BY 'edE9KLbt&%7Wcb';
+```
 
-
+```mysql
 CREATE DATABASE wp CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
+```
 
+```mysql
 GRANT ALL PRIVILEGES ON wp.* TO 'argosadmin'@'localhost';
+```
 
+```bash
 wp core config --dbname=wp --dbuser=argosadmin --dbpass='edE9KLbt&%7Wcb'
-wp core install --skip-email --url=https://wp.9ahwa.ovh --title='Argos' --admin_user=aha --admin_email=aha@argos.fund --admin_password='V8g8XP!Nv#u&hx'
+```
 
+```bash
+wp core install --skip-email --url=https://wp.9ahwa.ovh --title='Argos' --admin_user=aha --admin_email=aha@argos.fund --admin_password='V8g8XP!Nv#u&hx'
+```
 
 ```bash
 wp search-replace 'https://argos.wityu.fund' 'https://wp.9ahwa.ovh' --allow-root --dry-run
