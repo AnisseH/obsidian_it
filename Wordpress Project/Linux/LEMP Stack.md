@@ -108,3 +108,24 @@ opcache.enable_file_override = 1 < uncomment and set to 1 to enable opcache
 sudo apt install mysql-server -y
 ```
 
+
+```bash
+sudo mysql
+```
+setup a temporary password to run the secure instalation
+```bash
+ALTER USER 'root'@'localhost' IDENTIFIED WITH caching_sha2_password BY 'password';
+```
+
+```bash
+exit
+```
+
+```bash
+sudo mysql_secure_installation
+```
+
+
+## HTTPS
+
+sudo certbot --nginx certonly -d wp.9ahwa.ovh -d www.wp.9ahwa.ovh
