@@ -147,3 +147,8 @@ GRANT ALL PRIVILEGES ON wp.* TO 'argosadmin'@'localhost';
 
 wp core config --dbname=wp --dbuser=argosadmin --dbpass='edE9KLbt&%7Wcb'
 wp core install --skip-email --url=https://wp.9ahwa.ovh --title='Argos' --admin_user=aha --admin_email=aha@argos.fund --admin_password='V8g8XP!Nv#u&hx'
+
+
+```bash
+wp search-replace 'https://argos.wityu.fund' 'https://wp.9ahwa.ovh' --allow-root --dry-run
+```
