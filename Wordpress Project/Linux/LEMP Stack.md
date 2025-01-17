@@ -26,6 +26,7 @@ sudoedit /etc/nginx/nginx.conf
 
 ```
 ...
+user argosadmin; < set to the correct user/group
 worker_processes 2; <<< number o cpu core
 ...
 
@@ -71,13 +72,13 @@ sudo nano /etc/php/8.3/fpm/pool.d/www.conf
 
 ```
 ...
-user = argosadmin
-group = argosadmin
+user = argosadmin < set to the correct user/group
+group = argosadmin < set to the correct user/group
 ...
 
 ...
-listen.owner = argosadmin
-listen.group = argosadmin
+listen.owner = argosadmin < set to the correct user/group
+listen.group = argosadmin < set to the correct user/group
 ...
 ```
 
@@ -99,3 +100,6 @@ post_max_size = 64M < set 64m
 opcache.enable_file_override = 1 < uncomment and set to 1 to enable opcache
 ...
 ```
+
+
+test php
