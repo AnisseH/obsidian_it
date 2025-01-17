@@ -63,3 +63,24 @@ php8.3-imagick php8.3-cli php8.3-dev php8.3-imap \
 php8.3-mbstring php8.3-opcache php8.3-redis \
 php8.3-soap php8.3-zip -y
 ```
+
+
+```bash
+sudo nano /etc/php/8.3/fpm/pool.d/www.conf
+```
+
+```
+...
+user = argosadmin
+group = argosadmin
+...
+
+...
+listen.owner = argosadmin
+listen.group = argosadmin
+...
+```
+
+```bash
+sudo nano /etc/php/8.3/fpm/php.ini
+```
