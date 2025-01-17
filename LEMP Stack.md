@@ -26,10 +26,20 @@ sudoedit /etc/nginx/nginx.conf
 
 ```
 ...
-worker_processes auto; >> worker_processes 2; <<< number o cpu core
+worker_processes 2; <<< number o cpu core
 ...
 
 ...
-worker_connections 768; >> worker_connections 2048; <<<cpu core x limite file limit
-# multi_accept on; << uncomment and set to on
+worker_connections 2048; <<<cpu core x limite file limit
+multi_accept on; << uncomment and set to on
+...
+
+...
+keepalive_timeout 15s; <<< add to kill connection after 15 secondes
+server_tokens off; << uncomment and set to off
+client_max_body_size 64m;
+...
+
+
+
 ```
