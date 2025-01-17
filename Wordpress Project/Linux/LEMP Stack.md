@@ -129,3 +129,6 @@ sudo mysql_secure_installation
 ## HTTPS
 
 sudo certbot --nginx certonly -d wp.9ahwa.ovh -d www.wp.9ahwa.ovh
+
+Certificate is saved at: /etc/letsencrypt/live/wp.9ahwa.ovh/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/wp.9ahwa.ovh/privkey.pem
