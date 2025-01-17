@@ -40,6 +40,26 @@ server_tokens off; << uncomment and set to off
 client_max_body_size 64m;
 ...
 
+...
+gzip_proxied any;
+gzip_comp_level 5; << set level of compression 1-9, higer value impact cpu usage
+gzip_types text/plai....  <<< uncomment 
+...
+
+```
 
 
+## Install PHP 8.3
+
+```bash
+sudo add-apt-repository ppa:ondrej/php -y
+sudo apt update
+```
+
+```bash
+sudo apt install php8.3-fpm php8.3-common php8.3-mysql \
+php8.3-xml php8.3-intl php8.3-curl php8.3-gd \
+php8.3-imagick php8.3-cli php8.3-dev php8.3-imap \
+php8.3-mbstring php8.3-opcache php8.3-redis \
+php8.3-soap php8.3-zip -y
 ```
