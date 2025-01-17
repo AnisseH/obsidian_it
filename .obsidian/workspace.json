@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Wordpress Project/Linux/iptables.md",
-                "mode": "source",
+                "file": "Wordpress Project/Linux/smtp2go_postfix_main.cf.md",
+                "mode": "preview",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "iptables"
+              "title": "smtp2go_postfix_main.cf"
             }
           }
         ]
@@ -165,10 +165,10 @@
   },
   "active": "74af704e2eebc55c",
   "lastOpenFiles": [
-    "Wordpress Project/Linux/todo.md",
-    "Wordpress Project/Linux/iptables.md",
-    "Wordpress Project/Linux/Linux Hardening.md",
     "Wordpress Project/Linux/SSH.md",
+    "Wordpress Project/Linux/iptables.md",
+    "Wordpress Project/Linux/todo.md",
+    "Wordpress Project/Linux/Linux Hardening.md",
     "Wordpress Project/Linux/smtp2go_postfix_main.cf.md",
     "Wordpress Project/Untitled.md",
     "Wordpress Project/Crowdsec",
