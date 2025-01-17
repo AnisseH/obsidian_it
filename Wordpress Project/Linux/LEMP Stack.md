@@ -135,3 +135,10 @@ Key is saved at:         /etc/letsencrypt/live/wp.9ahwa.ovh/privkey.pem
 
 
 sudo ln -s /etc/nginx/sites-available/wp.9ahwa.ovh /etc/nginx/sites-enabled/wp.9ahwa.ovh
+
+
+
+CREATE USER 'argosadmin'@'localhost' IDENTIFIED BY 'edE9KLbt&%7Wcb';
+
+
+CREATE DATABASE globex CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_520_ci;
