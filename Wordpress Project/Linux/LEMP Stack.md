@@ -102,4 +102,9 @@ opcache.enable_file_override = 1 < uncomment and set to 1 to enable opcache
 ```
 
 
-test php
+## Install MySQL
+
+```bash
+sudo apt install mysql-server -y
+```
+
