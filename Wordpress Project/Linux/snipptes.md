@@ -59,3 +59,6 @@ define('ADVMO_CLOUDFLARE_R2_DOMAIN', 'media.9ahwa.ovh');
 
 https://75569de8fbb5761acf8c9ca9cc6c1bde.eu.r2.cloudflarestorage.com
 ```
+
+old SID
+S-1-5-21-1475511947-1274405101-1044252824-45516107
