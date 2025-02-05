@@ -1,6 +1,6 @@
 
 ## 1  DNS record switch
-put a maintenance page ?
+add 
 ## 2 - generate certificate
 ```bash 
 sudo certbot --nginx certonly -d argos.wityu.fund -d www.argos.wityu.fund
