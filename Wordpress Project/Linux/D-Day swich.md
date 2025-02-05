@@ -1,6 +1,9 @@
 
 ## 1  DNS record switch
-add 
+add route to the maintenance page
+[Cloudflare: How to show a maintenance page but continue traffic to origin server from whitelisted IPs](https://www.infiniroot.com/blog/1226/cloudflare-how-to-show-maintenance-page-ip-exception-whitelist)
+add ilidiosd@gmail.com ip ?
+
 ## 2 - generate certificate
 ```bash 
 sudo certbot --nginx certonly -d argos.wityu.fund -d www.argos.wityu.fund
