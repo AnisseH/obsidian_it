@@ -5,9 +5,10 @@
 - [ ] change the dns entries to the new host with the new one and enable cloudflare proxy
 - [ ] test and debug the new website without any new plugin
 - [ ] add Redis plugins and configure it ( cache mysql requests )
-- [ ] configure cloudflare for wordpresse for app optimisation ( paid version)
+- [ ] configure cloudflare for wordpresse for app optimisation
 - [ ] configure crowdstrike for wordpress ( retest appsec )
 - [ ] remove noindex header
+- [ ] Disable maintenance page route
 ## 1  DNS record switch
 add route to the maintenance page
 [Cloudflare: How to show a maintenance page but continue traffic to origin server from whitelisted IPs](https://www.infiniroot.com/blog/1226/cloudflare-how-to-show-maintenance-page-ip-exception-whitelist)
