@@ -1,10 +1,12 @@
 - [ ] move dns to cloudflare
-- [ ] disable any 
+- [ ] before the last backup disable wp_fastest cache, advanced cache and object cache
 - [ ] download backup of 16/02/2024 and restore it on the new host (don't forget to remove the wpe plugins in mu-plugins folder and entries in the wp-config.conf)
 - [ ] enable the route for the maintenance page
 - [ ] change the dns entries to the new host with the new one and enable cloudflare proxy
-- [ ] test and debug the new website without any ne
+- [ ] test and debug the new website without any new plugin
+- [ ] add Redis plugins and configure it ( cache mysql requests )
 - [ ] configure cloudflare for wordpresse
+- [ ] configure crowdstrike for wordpress
 - [ ] 
 ## 1  DNS record switch
 add route to the maintenance page
