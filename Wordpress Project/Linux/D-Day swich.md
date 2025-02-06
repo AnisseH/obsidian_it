@@ -1,4 +1,11 @@
-
+- [ ] move dns to cloudflare
+- [ ] disable any 
+- [ ] download backup of 16/02/2024 and restore it on the new host (don't forget to remove the wpe plugins in mu-plugins folder and entries in the wp-config.conf)
+- [ ] enable the route for the maintenance page
+- [ ] change the dns entries to the new host with the new one and enable cloudflare proxy
+- [ ] test and debug the new website without any ne
+- [ ] configure cloudflare for wordpresse
+- [ ] 
 ## 1  DNS record switch
 add route to the maintenance page
 [Cloudflare: How to show a maintenance page but continue traffic to origin server from whitelisted IPs](https://www.infiniroot.com/blog/1226/cloudflare-how-to-show-maintenance-page-ip-exception-whitelist)
