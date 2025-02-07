@@ -1,4 +1,4 @@
-- [ ] 1-move dns to cloudflare
+- [x] 1-move dns to cloudflare ✅ 2025-02-07
 - [ ] 2-before the last backup disable wp_fastest cache, advanced cache and object cache
 - [ ] download backup of 16/02/2024 and restore it on the new host (don't forget to remove the wpe plugins in mu-plugins folder and entries in the wp-config.conf )
 - [ ] enable the route for the maintenance page
