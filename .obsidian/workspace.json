@@ -20,8 +20,21 @@
               "icon": "lucide-file",
               "title": "D-Day swich"
             }
+          },
+          {
+            "id": "c918a736284b2062",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.8.4"
+              },
+              "icon": "lucide-book-up",
+              "title": "Release Notes 1.8.4"
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -164,7 +177,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "74af704e2eebc55c",
+  "active": "c918a736284b2062",
   "lastOpenFiles": [
     "Wordpress Project/Linux/todo.md",
     "Wordpress Project/Linux/D-Day swich.md",
