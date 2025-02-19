@@ -36,7 +36,8 @@ to
 ssl_certificate /etc/letsencrypt/live/argos.fund/fullchain.pem; ssl_certificate_key /etc/letsencrypt/live/argos.fund/privkey.pem;
 ```
 
-
+Certificate is saved at: /etc/letsencrypt/live/argos.fund/fullchain.pem
+Key is saved at:         /etc/letsencrypt/live/argos.fund/privkey.pem
 
 ## X Remove robots x header 
 
