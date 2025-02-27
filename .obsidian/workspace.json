@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "AirVision/ToDo.md",
+                "file": "Monit/Todo monit.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "ToDo"
+              "title": "Todo monit"
             }
           }
         ]
@@ -166,9 +166,11 @@
   },
   "active": "74af704e2eebc55c",
   "lastOpenFiles": [
+    "AirVision/ToDo.md",
+    "Monit/Todo monit.md",
+    "Monit",
     "AirVision",
     "Wordpress Project/Linux/todo.md",
-    "AirVision/ToDo.md",
     "Wordpress Project/Linux/Untitled.md",
     "Wordpress Project/Linux/Backup.md",
     "Wordpress Project/Linux/D-Day swich.md",
