@@ -41,3 +41,10 @@ ufw default allow outgoing
 ufw allow in on vmbr1 to any
 ```
 vmbr1 is our internal network that serve the VM's we need to configure it after
+
+``` bash
+
+ufw allow from IP >>
+```
+
+a
