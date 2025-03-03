@@ -13,12 +13,12 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Monit/Todo monit.md",
+                "file": "Wordpress Project/Linux/LEMP Stack.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "Todo monit"
+              "title": "LEMP Stack"
             }
           }
         ]
@@ -166,21 +166,21 @@
   },
   "active": "74af704e2eebc55c",
   "lastOpenFiles": [
-    "AirVision/ToDo.md",
+    "Wordpress Project/Linux/iptables.md",
+    "Wordpress Project/Linux/DNS Ovh.md",
+    "Wordpress Project/Linux/D-Day swich.md",
+    "Wordpress Project/Linux/Backup.md",
     "Monit/Todo monit.md",
+    "AirVision/ToDo.md",
     "Monit",
     "AirVision",
     "Wordpress Project/Linux/todo.md",
     "Wordpress Project/Linux/Untitled.md",
-    "Wordpress Project/Linux/Backup.md",
-    "Wordpress Project/Linux/D-Day swich.md",
     "Wordpress Project/Linux/LEMP Stack.md",
     "Wordpress Project/Linux/SSH.md",
     "Wordpress Project/Linux/snipptes.md",
     "Wordpress Project/Linux/Linux Hardening.md",
     "Wordpress Project/Linux/php settings.md",
-    "Wordpress Project/Linux/DNS Ovh.md",
-    "Wordpress Project/Linux/iptables.md",
     "Wordpress Project/Linux/smtp2go_postfix_main.cf.md",
     "Wordpress Project/Untitled.md",
     "Wordpress Project/Crowdsec",
