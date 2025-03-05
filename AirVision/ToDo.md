@@ -1,5 +1,5 @@
-- [ ] Hello for buisness
+- [x] Hello for buisness ✅ 2025-03-05
 - [ ] Device restriction
-- [ ] Import OIB
-- [ ] Adjuste the OIB
-- [ ] Add custom Settings
+- [x] Import OIB ✅ 2025-03-05
+- [x] Adjuste the OIB ✅ 2025-03-05
+- [x] Add custom Settings ✅ 2025-03-05
